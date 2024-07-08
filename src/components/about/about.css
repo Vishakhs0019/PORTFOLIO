@@ -1,0 +1,147 @@
+#aboutmain {
+    overflow: hidden;
+    width: 100%;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem auto 2rem;
+    padding: 2rem 1rem;
+}
+
+#skilltitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #df0c0c;
+}
+
+#skilldesc {
+    font-weight: 400;
+    font-size: 1.2rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    color: rgb(200, 200, 200);
+    line-height: 1.6;
+}
+
+#skillbars {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    max-width: 12070px; 
+    margin: 2rem auto; 
+}
+
+.skillbar {
+    background: #323232;
+    border-radius: 0.5rem; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 1rem; 
+    padding: 1.5rem; 
+    width: calc(50% - 2rem); 
+    text-align: center; 
+}
+
+.skillbar:hover {
+   transform: scale(1.05);
+}
+
+.skillbarimage {
+    object-fit: cover; 
+    height: 5rem; 
+    width: 5rem; 
+    margin-bottom: 1rem; 
+    border-radius: 50%; 
+}
+
+.skillbartext {
+    padding: 0 1rem; 
+}
+
+
+.skillbartext h2 {
+    font-size: 1.5rem; 
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .skillbartext h2 {
+        font-size: 1.25rem; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillbartext h2 {
+        font-size: 1rem; 
+    }
+}
+
+.skillbartext p {
+    font-weight: 300;
+    font-size: 1rem; 
+    line-height: 1.6; 
+    color: rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 768px) {
+    #skilldesc {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .skillbar {
+        padding: 1rem;
+    }
+
+    .skillbartext h2 {
+        font-size: 1.25rem;
+    }
+
+    .skillbartext p {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #skilltitle {
+        font-size: 2rem;
+    }
+
+    #skilldesc {
+        font-size: 0.875rem;
+    }
+
+    .skillbar {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .skillbarimage {
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .skillbartext h2 {
+        font-size: 1.25rem;
+    }
+
+    .skillbartext p {
+        font-size: 0.75rem;
+    }
+}
+#skill {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+    height: 5rem; 
+    width: 100%; 
+    max-width: 75rem; 
+    margin: auto; 
+    padding: 1rem;
+}

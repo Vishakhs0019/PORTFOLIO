@@ -1,0 +1,81 @@
+#homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+    font-size: x-large;
+}
+
+#introcontent {
+    text-align: center;
+    color: white;
+}
+
+#homehy {
+    font-size: 3.75rem;
+    margin: 0;
+    padding: 0;
+}
+
+#vishakh {
+    display: inline-block;
+}
+
+.letter {
+    display: inline-block;
+    font-weight: bold;
+    animation: bounce 2s infinite;
+}
+
+.letter:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.letter:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.letter:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.letter:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.letter:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.letter:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.letter:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+        color: yellow;
+    }
+    50% {
+        transform: translateY(-15px);
+        color: orange;
+    }
+}
+
+
+#homesentence {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(200, 200, 200);
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 1rem;
+    text-align: center; 
+    line-height: 1.6;
+}
+
