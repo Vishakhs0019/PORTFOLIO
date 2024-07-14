@@ -20,7 +20,7 @@ function Contact() {
   };
   
   return (
-    <div className="container">
+    <div  id="container">
       <h2>Contact Us</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-group">

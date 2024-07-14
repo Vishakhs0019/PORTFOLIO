@@ -14,13 +14,10 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Routes>
-      <Route path="/game" element={<Game/>}/>
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/project" element={<Project/>}/>
-      </Routes>
+      <Home/>
+      <About/>
+      <Project/>
+      <Contact/>
     </>
   )
 }
