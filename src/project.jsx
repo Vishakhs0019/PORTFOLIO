@@ -10,7 +10,7 @@ function Project() {
   const navigate = useNavigate();
 
   const handleGameClick = () => {
-    navigate('/game'); // Navigate to the '/game' route
+     <a href="https://github.com/Vishakhs0019"></a>
   };
 
   return (
