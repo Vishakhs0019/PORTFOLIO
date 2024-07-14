@@ -10,7 +10,7 @@ function Project() {
   const navigate = useNavigate();
 
   const handleGameClick = () => {
-     <a href="https://github.com/Vishakhs0019"></a>
+     <a href="https://vishakhs0019.netlify.app/game"></a>
   };
 
   return (
