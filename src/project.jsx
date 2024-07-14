@@ -1,9 +1,9 @@
 import React from 'react';
 import './project.css';
-import tictak from '../../assets/tictak.jpg'; 
-import button from '../../assets/button.png';
-import news from '../../assets/newshub.png';
-import helmet from '../../assets/helmet.png'
+import tictak from './assets/tictak.jpg'; 
+import button from './assets/button.png';
+import news from './assets/newshub.png';
+import helmet from './assets/helmet.png'
 import { useNavigate } from 'react-router-dom';
 
 function Project() {

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import './game.css'; 
-import circleimage from '../../assets/0.png';
-import xicon from '../../assets/xxx.png';
+import circleimage from './assets/0.png';
+import xicon from './assets/xxx.png';
 let data=["","","","","","","","",""]
 
 function Game() {

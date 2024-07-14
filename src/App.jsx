@@ -1,12 +1,12 @@
-import Home from "./components/home/home"
+import Home from "./home"
 
 import { Routes,Route } from "react-router-dom"
 
-import Navbar from "./components/navbar/navbar"
-import About from "./components/about/about"
-import Project from "./components/project/project"
-import Game from "./components/game/game"
-import Contact from "./components/skills/contact"
+import Navbar from "./navbar"
+import About from "./about"
+import Project from "./project"
+import Game from './game'
+import Contact from "./contact"
 
 function App() {
   
@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar/>
       <Routes>
-      <Route path='/game' element={<Game/>}/>
+      <Route path="/game" element={<Game/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>

@@ -1,14 +1,14 @@
 import React from 'react'
 import './about.css'
-import webb from '../../assets/web.jpg'
-import uii from '../../assets/ui.jpeg'
-import js from '../../assets/js.webp'
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import react from '../../assets/react.png'
-import php from '../../assets/php.jpg'
-import mongo from '../../assets/mongo.png'
-import sql from '../../assets/sql.png'
+import webb from './assets/web.jpg'
+import uii from './assets/ui.jpeg'
+import js from './assets/js.webp'
+import html from './assets/html.png'
+import css from './assets/css.png'
+import react from './assets/react.png'
+import php from './assets/php.jpg'
+import mongo from './assets/mongo.png'
+import sql from './assets/sql.png'
 function About() {
   return (
   <>
