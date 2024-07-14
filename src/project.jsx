@@ -9,9 +9,9 @@ import { useNavigate } from 'react-router-dom';
 function Project() {
   const navigate = useNavigate();
 
-  const handleGameClick = () => {
-     <a href="https://vishakhs0019.netlify.app/game"></a>
-  };
+  // const handleGameClick = () => {
+  //    <a href="https://vishakhs0019.netlify.app/game"></a>
+  // };
 
   return (
     <>
@@ -25,7 +25,7 @@ function Project() {
             <img src={tictak} alt="work" className="workimg" />
             <h2>TIC TAC TOE</h2>
             <p>I built a Tic Tac Toe game using ReactJS, where two players compete to align three of their symbols in a row.</p>
-           <button id="btn" onClick={handleGameClick}><img src={button} alt="work" id="img-button" /></button>
+           <a href="https://vishakhs0019.netlify.app/game"><button id="btn" ><img src={button} alt="work" id="img-button" /></button></a>
           </div>
           <div className="img">
             <img src={helmet} alt="work" className="workimg" />
