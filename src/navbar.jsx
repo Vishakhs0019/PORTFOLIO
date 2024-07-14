@@ -24,7 +24,7 @@ function Navbar() {
         <Link className='navitem'  id="navitemlist"activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
         <Link className='navitem'  id="navitemlist"activeClass='active' to='container' spy={true} smooth={true} offset={-50} duration={500}>Contact</Link>
         </div>
-        <a href="/resumevishakh.pdf" download="vishakh.pdf"><button id="navbutton">
+        <a href="/resumevishakh.,pdf.pdf" download="vishakh.pdf"><button id="navbutton">
           RESUME
         </button></a>
       </nav>
