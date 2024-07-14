@@ -20,7 +20,7 @@ function Navbar() {
         </div>
         <div id="navitems">
           <a href="/" id="navitemlist" className="navitem">HOME</a>
-          <a href="https://vishakhs0019.netlify.app/about" id="navitemlist" className="navitem">ABOUT ME</a>
+          <a href="/about" id="navitemlist" className="navitem">ABOUT ME</a>
           <a href="/project" id="navitemlist" className="navitem">PROJECTS</a>
           <a href="/contact" id="navitemlist" className="navitem">CONTACT</a>
         </div>
