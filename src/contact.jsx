@@ -21,6 +21,9 @@ function Contact() {
   
   return (
     <div  id="container">
+      <br />
+      <br />
+      <br />
       <h2>Contact Us</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-group">
